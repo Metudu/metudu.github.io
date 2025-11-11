@@ -1,0 +1,83 @@
+baseURL: https://metudu.github.io/
+title: Metudu
+theme: PaperMod
+
+enableRobotsTXT: true
+enableEmoji: true
+enableInlineShortcodes: true
+
+minify:
+  disableXML: true
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+languages:
+  en:
+    languageName: ":flag_us: Engelsk"
+    weight: 1
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: posts/
+          weight: 10
+        - identifier: categories
+          name: Categories
+          url: categories/
+          weight: 20
+        - identifier: tags
+          name: Tags
+          url: tags/
+          weight: 30
+  no:
+    languageName: ":flag_no: Norwegian"
+    weight: 2
+    menu:
+      main:
+        - identifier: poster
+          name: Poster
+          url: posts/
+          weight: 10
+        - identifier: categories
+          name: Kategorier
+          url: categories/
+          weight: 20
+        - identifier: tags
+          name: Tags
+          url: tags/
+          weight: 30
+    params:
+      profileMode:
+        subtitle: "En enkel mann som deler sin kunnskap"
+        buttons: 
+        - name: Arkiv
+          url: "/archive"
+
+params:
+  showShareButtons: true
+  showReadingTime: true
+  showCodeCopyButtons: true
+  showToc: true
+  
+  assets:
+    favicon16x16: "/white-black-512.png"
+
+  displayFullLangName: true
+  profileMode:
+    enabled: true
+    title: "Metudu"
+    subtitle: "A simple man who shares his knowledge"
+    imageUrl: "/white-black-512.png"
+    buttons:
+      - name: Archive
+        url: "/archive"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/Metudu"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/tarik-ucar"
+    - name: "instagram"
+      url: "https://instagram.com/metudu_"
