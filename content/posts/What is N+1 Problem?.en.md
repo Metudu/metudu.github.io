@@ -2,7 +2,7 @@
 date: '2025-11-11T13:59:04+03:00'
 draft: false
 title: 'What Is N+1 Problem?'
-author: ["Me"]
+author: ["Metudu"]
 tags: ["tech", "n+1", "database", "golang"]
 cover:
     image: "/n+1.png"
